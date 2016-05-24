@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.atmosphere:atmosphere-compat-tomcat7:1.0.0.beta5">
+    <CLASSES>
+      <root url="jar://F:/maven_repository/org/atmosphere/atmosphere-compat-tomcat7/1.0.0.beta5/atmosphere-compat-tomcat7-1.0.0.beta5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/maven_repository/org/atmosphere/atmosphere-compat-tomcat7/1.0.0.beta5/atmosphere-compat-tomcat7-1.0.0.beta5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/maven_repository/org/atmosphere/atmosphere-compat-tomcat7/1.0.0.beta5/atmosphere-compat-tomcat7-1.0.0.beta5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
