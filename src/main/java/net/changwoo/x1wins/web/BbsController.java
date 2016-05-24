@@ -547,7 +547,6 @@ public class BbsController {
 			model.put("message", e.toString());
 			return errorPage;
 		}
-		System.out.println("bbbbbbbbbbbbbbb");
 		return "notice.tiles";
 	}
 }
