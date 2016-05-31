@@ -59,4 +59,8 @@
         <put-attribute name="content" value="/WEB-INF/views/lxwm/content.jsp" />
         <put-attribute name="sidebar" value="/WEB-INF/views/lxwm/sidebar.jsp" />
     </definition>
+    <definition name="beida/bbs/list.tiles" extends="layouts-beida">
+        <put-attribute name="content" value="/WEB-INF/views/beida/content.jsp" />
+        <put-attribute name="sidebar" value="/WEB-INF/views/beida/sidebar.jsp" />
+    </definition>
 </tiles-definitions>

@@ -540,13 +540,18 @@ public class BbsController {
 	@RequestMapping(value = "/beida/list/{bbsnum}", method = RequestMethod.GET)
 	public String showBeidaBbs(@PathVariable("bbsnum") int bbsnum,Map model, HttpServletRequest request) {
 		model.put("menu", menu);
+		int pageNum=1;
+		String pageNumStr=request.getParameter("pageNum");
+		if(pageNumStr!=null&&!pageNumStr.equals("")){
+			pageNum=Integer.parseInt(pageNumStr);
+		}
 		try {
-			bbsService.findListAndPaging(bbsnum,1, perPage , model, request);
+			bbsService.findListAndPaging(1,pageNum, perPage , model, request);
 		} catch (Exception e) {
 			logger.debug(e.toString());
 			model.put("message", e.toString());
 			return errorPage;
 		}
-		return "notice.tiles";
+		return "beida/bbs/list.tiles";
 	}
 }
